@@ -11,10 +11,20 @@ public class INR implements Instruction {
         this.register = register;
     }
 
+    public INR(){
+
+    }
+
     @Override
     public void operate(Emulator state){
-        register.setData((byte) (register.getData() + 1));
-        state.setSZP(register);
+        if(register == null){
+            int location = state.getHL();
+            state.getMemory()[location] += 1;
+            state.setSZP(new Register(state.getMemory()[location]));
+        } else {
+            register.setData((byte) (register.getData() + 1));
+            state.setSZP(register);
+        }
     }
 
 }

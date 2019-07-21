@@ -15,7 +15,7 @@ public class STAX implements Instruction{
 
     @Override
     public void operate(Emulator state) {
-        int location = highRegister.getData() << 8 | lowRegister.getData();
+        int location = Short.toUnsignedInt((short)(highRegister.getData() << 8 | lowRegister.getData()));
         state.writeMemory(state.getRegisterA().getData(), location);
     }
 

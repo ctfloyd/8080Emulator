@@ -13,6 +13,11 @@ public class DCX implements Instruction {
         this.lowRegister = lowRegister;
     }
 
+    public DCX(short stackPointer){
+        this.highRegister = new Register((byte)(stackPointer & 0xFF00 << 8));
+        this.lowRegister = new Register((byte)(stackPointer  & 0x00FF));
+    }
+
 
     @Override
     public void operate(Emulator state) {

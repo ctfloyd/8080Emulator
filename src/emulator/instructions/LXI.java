@@ -12,12 +12,22 @@ public class LXI implements Instruction {
         this.highRegister = highRegister;
         this.lowRegister = lowRegister;
     }
+
+    public LXI(){
+
+    }
+
     @Override
     public void operate(Emulator state) {
-        byte[] mem = state.getMemory();
-        int pc = state.getPC();
-        lowRegister.setData(mem[pc]);
-        highRegister.setData(mem[pc + 1]);
-        state.setPC(pc + 2);
+        if(lowRegister == null){
+            state.setSP((short)(state.readMemory(state.getPC() + 1) << 8 | state.readMemory(state.getPC())));
+            System.out.println("Stack pointer set at: " + (short)(state.readMemory(state.getPC() + 1) << 8 | state.readMemory(state.getPC())));
+        } else {
+            int pc = state.getPC();
+            lowRegister.setData((byte)state.readMemory(pc));
+            highRegister.setData((byte)state.readMemory(pc + 1));
+        }
+        state.setPC((short)(state.getPC() + 2));
+
     }
 }

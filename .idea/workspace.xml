@@ -1,100 +1,212 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/emulator/instructions/XCHG.java" line="8" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cc71971-0fb5-4d22-86c2-57c49deab6c3" name="Default" comment="" />
+    <list default="true" id="5cc71971-0fb5-4d22-86c2-57c49deab6c3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invaders/cpudiag.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/ACI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/ADC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/ADD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/ADI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/ANA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/ANI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/CALL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/CC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/CM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/CMA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/CMC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/CMP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/CNC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/CNZ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/CP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/CPE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/CPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/CPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/CZ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/DI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/EI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/HLT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/JC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/JM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/JMP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/JNC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/JNZ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/JP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/JPE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/JPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/JZ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/LDA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/LHLD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/MOV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/ORA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/ORI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/PCHL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/POP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/PUSH.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/RC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/RET.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/RM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/RNC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/RNZ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/RP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/RPE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/RPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/RST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/RZ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/SBB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/SBI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/SPHL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/STA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/STC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/SUB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/SUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/XCHG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/XRA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/XRI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emulator/instructions/XTHL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.asm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/8080Emu/emulator/Emulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/8080Emu/emulator/Emulator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/8080Emu/emulator/instructions/DCR.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/8080Emu/emulator/instructions/DCR.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/8080Emu/emulator/instructions/INR.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/8080Emu/emulator/instructions/INR.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/8080Emu/emulator/instructions/INX.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/8080Emu/emulator/instructions/INX.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/8080Emu/emulator/instructions/LXI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/8080Emu/emulator/instructions/LXI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/8080Emu/emulator/instructions/MVI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/8080Emu/emulator/instructions/MVI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/8080Emu/emulator/instructions/RLC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/8080Emu/emulator/instructions/RLC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/8080Emu/emulator/instructions/STAX.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/8080Emu/emulator/instructions/STAX.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/disassembler/Disassembler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/disassembler/Disassembler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/emulator/Emulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/emulator/Emulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/emulator/instructions/DAD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/emulator/instructions/DAD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/emulator/instructions/DCR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/emulator/instructions/DCR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/emulator/instructions/DCX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/emulator/instructions/DCX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/emulator/instructions/INR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/emulator/instructions/INR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/emulator/instructions/INX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/emulator/instructions/INX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/emulator/instructions/LDAX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/emulator/instructions/LDAX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/emulator/instructions/LXI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/emulator/instructions/LXI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/emulator/instructions/MVI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/emulator/instructions/MVI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/emulator/instructions/SHLD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/emulator/instructions/SHLD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/emulator/instructions/STAX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/emulator/instructions/STAX.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="DockManager">
+    <window id="2">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/disassembler/Disassembler.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="309">
+                    <caret line="269" column="20" selection-start-line="269" selection-start-column="18" selection-end-line="269" selection-end-column="20" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="RAL.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/emulator/instructions/RAL.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/emulator/instructions/RPE.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+            <state relative-caret-position="180">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RAR.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/emulator/instructions/RAR.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/emulator/instructions/ADC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+            <state relative-caret-position="280">
+              <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RRC.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="46" selection-start-column="46" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/emulator/instructions/RP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/emulator/instructions/RM.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/emulator/instructions/RRC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="80">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RLC.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/emulator/instructions/RLC.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/emulator/instructions/RC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="180">
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="STAX.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/emulator/instructions/STAX.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/emulator/instructions/RNZ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="10" selection-start-line="10" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SHLD.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/emulator/instructions/SHLD.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/emulator/instructions/RZ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="13" column="68" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
+            <state relative-caret-position="180">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Emulator.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/emulator/Emulator.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/emulator/instructions/RNC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="164" column="74" selection-start-line="164" selection-start-column="74" selection-end-line="164" selection-end-column="74" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1113#1114#0" expanded="true" />
-                <element signature="e#1150#1151#0" expanded="true" />
-                <element signature="e#1187#1188#0" expanded="true" />
-                <element signature="e#1224#1225#0" expanded="true" />
-                <element signature="e#1262#1263#0" expanded="true" />
-                <element signature="e#1292#1293#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Disassembler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/disassembler/Disassembler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-490">
-              <caret line="67" column="28" lean-forward="true" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="36" />
+            <state relative-caret-position="180">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -110,100 +222,192 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>LXI</find>
+      <find>location =</find>
+      <find>writeMemory</find>
+      <find>short.to</find>
+      <find>UNIM</find>
+      <find>setPC</find>
+      <find>getHL</find>
+      <find>getME</find>
+      <find>ORI</find>
+      <find>LXI(sp</find>
+      <find>read</find>
       <find>CALL</find>
+      <find>,</find>
+      <find>LXI sp</find>
+      <find>JMP</find>
+      <find>getPC</find>
+      <find>registerD</find>
+      <find>LXI(registerH</find>
+      <find>lxi</find>
+      <find>RST(</find>
+      <find>80</find>
+      <find>JC</find>
+      <find>lxi h</find>
+      <find>registerA().setData</find>
+      <find>dc</find>
+      <find>e4</find>
+      <find>parity</find>
+      <find>checkParity</find>
+      <find>,</find>
+      <find>setSP</find>
+      <find>start</find>
     </findStrings>
+    <replaceStrings>
+      <replace>\n</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>F:\Code\gitProj\8080emulator</dir>
+      <dir>F:\Code\gitProj\8080emulator\src\emulator</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/disassembler/dism.java" />
-        <option value="$PROJECT_DIR$/src/disassembler/Disassembler.java" />
-        <option value="$PROJECT_DIR$/invaders.asm" />
-        <option value="$PROJECT_DIR$/src/emulator/emuCore.java" />
-        <option value="$PROJECT_DIR$/src/emulator/instructions/InstructionNOP.java" />
-        <option value="$PROJECT_DIR$/src/emulator/instructions/Instruction.java" />
-        <option value="$PROJECT_DIR$/src/emulator/instructions/Register.java" />
-        <option value="$PROJECT_DIR$/src/emulator/instructions/NOP.java" />
-        <option value="$PROJECT_DIR$/src/emulator/instructions/LXI.java" />
-        <option value="$PROJECT_DIR$/src/emulator/instructions/INX.java" />
-        <option value="$PROJECT_DIR$/src/emulator/HexByte.java" />
-        <option value="$PROJECT_DIR$/src/emulator/instructions/MVI.java" />
-        <option value="$PROJECT_DIR$/src/emulator/instructions/LDAX.java" />
-        <option value="$PROJECT_DIR$/src/emulator/instructions/DCX.java" />
-        <option value="$PROJECT_DIR$/src/emulator/instructions/INR.java" />
-        <option value="$PROJECT_DIR$/src/emulator/instructions/DCR.java" />
-        <option value="$PROJECT_DIR$/src/emulator/instructions/RLC.java" />
-        <option value="$PROJECT_DIR$/src/emulator/instructions/DAD.java" />
-        <option value="$PROJECT_DIR$/src/emulator/instructions/RRC.java" />
-        <option value="$PROJECT_DIR$/src/emulator/instructions/RAL.java" />
-        <option value="$PROJECT_DIR$/src/emulator/instructions/RAR.java" />
-        <option value="$PROJECT_DIR$/src/emulator/instructions/STAX.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/SPHL.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/EI.java" />
         <option value="$PROJECT_DIR$/src/emulator/instructions/SHLD.java" />
-        <option value="$PROJECT_DIR$/src/emulator/instructions/UnimplementedInstructionError.java" />
-        <option value="$PROJECT_DIR$/src/emulator/instructions/DAA.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/LHLD.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/STA.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/LDA.java" />
+        <option value="$PROJECT_DIR$/src/test.asm" />
+        <option value="$PROJECT_DIR$/src/emulator/Register.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/JMP.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/LXI.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/XCHG.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/JNZ.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/JNC.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/JP.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/JPE.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/JZ.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/JPO.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/JC.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/JM.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/ADI.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/ACI.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/SBI.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/ORI.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/XRI.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/CC.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/CNZ.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/CNC.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/CPE.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/CZ.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/CPO.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/CM.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/CP.java" />
         <option value="$PROJECT_DIR$/src/emulator/Emulator.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/POP.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/RET.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/CALL.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/PUSH.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/CPI.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/ANI.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/SUI.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/RPE.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/RPO.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/RP.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/RM.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/RC.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/RNC.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/RNZ.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/RZ.java" />
+        <option value="$PROJECT_DIR$/src/emulator/instructions/ADC.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.txt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="487" />
+    <option name="y" value="-11" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="8080Emu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="8080Emu" type="462c0819:PsiDirectoryNode" />
+              <item name="8080emulator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="8080emulator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="8080Emu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="8080Emu" type="462c0819:PsiDirectoryNode" />
+              <item name="8080emulator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="8080emulator" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="8080emulator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="8080emulator" type="462c0819:PsiDirectoryNode" />
+              <item name="invaders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="8080emulator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="8080emulator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="8080Emu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="8080Emu" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="disassembler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="8080Emu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="8080Emu" type="462c0819:PsiDirectoryNode" />
+              <item name="8080emulator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="8080emulator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="emulator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="8080Emu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="8080Emu" type="462c0819:PsiDirectoryNode" />
+              <item name="8080emulator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="8080emulator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="emulator" type="462c0819:PsiDirectoryNode" />
               <item name="instructions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="8080emulator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="8080emulator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/invaders" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="emulator.instructions" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Code\gitProj\8080emulator\invaders" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -218,7 +422,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Emulator">
     <configuration name="Disassembler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="disassembler.Disassembler" />
       <module name="8080Emu" />
@@ -229,6 +433,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Emulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="emulator.Emulator" />
@@ -240,47 +447,31 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
       <item itemvalue="Application.Disassembler" />
@@ -307,260 +498,505 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32876712" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30510587" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20362474" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30425754" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.41952232" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3281412" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven" order="8" weight="0.32995737" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20362474" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30425754" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41952232" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.3281412" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven" order="8" />
+    </layout-to-restore>
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.asm" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>state.getPC() &lt;&lt; 8 | state.getPC()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>state.getPC() &lt;&lt; 8</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>state.getPC();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>System.out.println((short)(state.getPC() &lt;&lt; 8) | state.getPC()));</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>int a = (short)(state.getPC() &lt;&lt; 8) | state.getPC());</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>short a = (short)(state.getPC() &lt;&lt; 8) | state.getPC());</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>short a = (short)(state.getPC() &lt;&lt; 8) | state.getPC())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(short)(state.getPC() &lt;&lt; 8) | state.getPC())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(short)(state.getPC() &lt;&lt; 8) | state.getPC());</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/invaders.asm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="5605" column="3" selection-start-line="5605" selection-start-column="3" selection-end-line="5605" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/Instruction.java">
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/XTHL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/emulator/Register.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#108#109#0" expanded="true" />
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/emulator/HexByte.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#72#73#0" expanded="true" />
-            <element signature="e#98#99#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/INX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/INR.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/DCX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="20" column="68" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/DCR.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/DAD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="25" column="124" selection-start-line="25" selection-start-column="124" selection-end-line="25" selection-end-column="124" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/LDAX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/LXI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/MVI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/NOP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-          <folding>
-            <element signature="e#178#179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/RAL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/RAR.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/RRC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/RLC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/STAX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="10" selection-start-line="10" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/SHLD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="13" column="68" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/UnimplementedInstructionError.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/DAA.java">
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/JMP.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <caret line="9" column="106" lean-forward="true" selection-start-line="9" selection-start-column="106" selection-end-line="9" selection-end-column="106" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/disassembler/Disassembler.java">
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/JPO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-490">
-          <caret line="67" column="28" lean-forward="true" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="36" />
+        <state relative-caret-position="240">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/JP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/JNC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/JNZ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/ACI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/JC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/JM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/SBI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="97" selection-start-line="9" selection-start-column="97" selection-end-line="9" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/ORI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/XRI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/CNZ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/CNC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/CC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/CZ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/CP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invaders.asm">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invaders/cpudiag.bin">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test.asm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="228" column="26" lean-forward="true" selection-end-line="810" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/CM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/CPE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="1958" selection-start-line="1958" selection-end-line="1959" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/emulator/Emulator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="164" column="74" selection-start-line="164" selection-start-column="74" selection-end-line="164" selection-end-column="74" />
+        <state relative-caret-position="100">
+          <caret line="102" column="42" selection-start-line="102" selection-start-column="42" selection-end-line="102" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1113#1114#0" expanded="true" />
-            <element signature="e#1150#1151#0" expanded="true" />
-            <element signature="e#1187#1188#0" expanded="true" />
-            <element signature="e#1224#1225#0" expanded="true" />
-            <element signature="e#1262#1263#0" expanded="true" />
-            <element signature="e#1292#1293#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+            <element signature="e#1047#1048#0" expanded="true" />
+            <element signature="e#1084#1085#0" expanded="true" />
+            <element signature="e#3239#3240#0" expanded="true" />
+            <element signature="e#3269#3270#0" expanded="true" />
+            <element signature="e#21093#21094#0" expanded="true" />
+            <element signature="e#21127#21128#0" expanded="true" />
+            <element signature="e#21306#21307#0" expanded="true" />
+            <element signature="e#21367#21368#0" expanded="true" />
+            <element signature="e#21404#21405#0" expanded="true" />
+            <element signature="e#21430#21431#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/Register.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/PUSH.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="52" column="61" selection-start-line="52" selection-start-column="61" selection-end-line="52" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/LXI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/JZ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/POP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/RLC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/RST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="15" column="96" selection-start-line="15" selection-start-column="96" selection-end-line="15" selection-end-column="96" />
+          <folding>
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/CALL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/ADI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/CPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="71" lean-forward="true" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/JPE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/SUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/ANI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/CPO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/RET.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/RPO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/RP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/RM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/RRC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/RC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/RNC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/RNZ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/RZ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/disassembler/Disassembler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="269" column="20" selection-start-line="269" selection-start-column="18" selection-end-line="269" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/RPE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emulator/instructions/ADC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" selection-start-column="46" selection-end-column="46" />
         </state>
       </provider>
     </entry>

@@ -13,6 +13,7 @@ public class SHLD implements Instruction{
         int location = mem[pc + 1] << 8 | mem[pc];
         state.writeMemory(state.getRegisterH().getData(), location);
         state.writeMemory(state.getRegisterL().getData(), location + 1);
+        state.setPC((short)(state.getPC() + 2));
     }
 
 }
