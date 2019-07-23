@@ -8,11 +8,9 @@ public class SHLD implements Instruction{
 
     @Override
     public void operate(Emulator state) {
-        byte[] mem = state.getMemory();
-        int pc = state.getPC();
-        int location = mem[pc + 1] << 8 | mem[pc];
-        state.writeMemory(state.getRegisterH().getData(), location);
-        state.writeMemory(state.getRegisterL().getData(), location + 1);
+        short location = (short)((state.readMemory(state.getPC() + 1) << 8) | (state.readMemory(state.getPC())));
+        state.writeMemory(state.getRegisterL().getData(), location);
+        state.writeMemory(state.getRegisterH().getData(), location + 1);
         state.setPC((short)(state.getPC() + 2));
     }
 

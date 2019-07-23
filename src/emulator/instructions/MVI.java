@@ -18,9 +18,9 @@ public class MVI implements Instruction {
     @Override
     public void operate(Emulator state){
         if(register == null){
-            state.writeMemory(state.getMemory()[state.getPC()], state.getHL());
+            state.writeMemory((byte)(state.readMemory(state.getPC())), state.getHL());
         } else {
-            register.setData(state.getMemory()[state.getPC()]);
+            register.setData((byte)(state.readMemory(state.getPC())));
         }
         state.setPC((short)(state.getPC() + 1));
     }

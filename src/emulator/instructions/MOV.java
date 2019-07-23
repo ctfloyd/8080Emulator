@@ -21,11 +21,9 @@ public class MOV implements Instruction {
     @Override
     public void operate(Emulator state) {
         if(registerSrc == null){
-            this.registerDst.setData(state.getMemory()[state.getPC()]);
-            state.setPC((short)(state.getPC() + 1));
+            this.registerDst.setData((byte)(state.readMemory(state.getHL())));
         } else if(registerDst == null){
             state.writeMemory(registerSrc.getData(), state.getHL());
-            state.setPC((short)(state.getPC() + 1));
         } else {
             this.registerDst.setData(this.registerSrc.getData());
         }

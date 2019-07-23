@@ -17,16 +17,24 @@ public class SBB implements Instruction {
 
     @Override
     public void operate(Emulator state) {
+        System.out.println("--------SBB---------");
+        state.printStatus();
         byte carryByte = state.getCarry() ? (byte)1 : (byte)0;
+        int registerData;
         if(this.register == null)
         {
-            state.getRegisterA().setData((byte)((state.getMemory()[state.getHL()] + carryByte) - state.getRegisterA().getData()));
+            registerData = (state.getRegisterA().getData() & 0xFF) - state.readMemory(state.getHL()) - carryByte;
+            System.out.println((state.getRegisterA().getData() & 0xFF) + " - " + state.readMemory(state.getHL()) + " - " + carryByte + " + "  + state.getRegisterB().getData());
         } else {
-            state.getRegisterA().setData((byte) (state.getRegisterA().getData() - (register.getData() + carryByte)));
+            registerData = (state.getRegisterA().getData() & 0xFF) - (register.getData() & 0xFF) - carryByte;
+            System.out.println((state.getRegisterA().getData() & 0xFF) + " - " + (register.getData() & 0xFF) + " - " + carryByte +  " + "  + state.getRegisterB().getData());
         }
-
+        state.getRegisterA().setData((byte)registerData);
         state.setSZP(state.getRegisterA());
-        state.setCarry(false);
+        System.out.println(Integer.toBinaryString(registerData));
+        state.setCarry((registerData & 0xFFFFFF00) == 0);
+        state.printStatus();
+        System.out.println("--------------------");
         //TODO: Auxillary Carry
     }
 }

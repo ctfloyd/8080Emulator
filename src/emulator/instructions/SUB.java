@@ -17,15 +17,19 @@ public class SUB implements Instruction {
 
     @Override
     public void operate(Emulator state) {
+        int registerData;
         if(this.register == null)
         {
-            state.getRegisterA().setData((byte)(state.getMemory()[state.getHL()] - state.getRegisterA().getData()));
+            registerData = (state.readMemory(state.getHL()) & 0xFF) - (state.getRegisterA().getData() & 0xFF);
         } else {
-            state.getRegisterA().setData((byte) (state.getRegisterA().getData() - register.getData()));
+            registerData = (state.getRegisterA().getData() & 0xFF) - (register.getData()  & 0xFF);
         }
 
+        state.getRegisterA().setData((byte)registerData);
         state.setSZP(state.getRegisterA());
-        state.setCarry(false);
+        System.out.println(Integer.toBinaryString(registerData));
+        state.setCarry((registerData & 0xFFFFFF00) == 0);
+        state.printStatus();
         //TODO: Auxillary Carry
     }
 }

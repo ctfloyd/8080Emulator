@@ -99,6 +99,13 @@ public class Emulator {
         memory[0] = (byte) 0xc3;
         memory[1] = 0;
         memory[2] = 0x01;
+
+        //Skip DAA test
+        memory[0x59c] = (byte)0xc3; //JMP
+        memory[0x59d] = (byte)0xc2;
+        memory[0x59e] = (byte)0x05;
+
+
 //        if(!loadedROM){
 //            System.out.println("No ROM loaded, exiting.");
 //            return;
@@ -123,7 +130,7 @@ public class Emulator {
     }
 
     public int getHL(){
-        return Short.toUnsignedInt((short)(registerH.getData() << 8 | registerL.getData()));
+        return (short)((registerH.getData() & 0xFF) << 8 | (registerL.getData() & 0xFF));
     }
 
     public short getSP(){
@@ -309,7 +316,7 @@ public class Emulator {
             case "74": new MOV(null, registerH).operate(this); break;
             case "75": new MOV(null, registerL).operate(this); break;
             case "76": new HLT().operate(this); break;
-            case "77": new MOV(registerA, registerA).operate(this); break;
+            case "77": new MOV(null, registerA).operate(this); break;
             case "78": new MOV(registerA, registerB).operate(this); break;
             case "79": new MOV(registerA, registerC).operate(this); break;
             case "7a": new MOV(registerA, registerD).operate(this); break;
@@ -347,7 +354,7 @@ public class Emulator {
             case "98": new SBB(registerB).operate(this); break;
             case "99": new SBB(registerC).operate(this); break;
             case "9a": new SBB(registerD).operate(this); break;
-            case "9b": new ADC(registerE).operate(this); break;
+            case "9b": new SBB(registerE).operate(this); break;
             case "9c": new SBB(registerH).operate(this); break;
             case "9d": new SBB(registerL).operate(this); break;
             case "9e": new SBB().operate(this); break;

@@ -6,14 +6,12 @@ public class XCHG implements Instruction {
 
     @Override
     public void operate(Emulator state) {
-        short hl = (short)state.getHL();
-
         byte newh = state.getRegisterD().getData();
         byte newl = state.getRegisterE().getData();
-
+        state.getRegisterD().setData(state.getRegisterH().getData());
+        state.getRegisterE().setData(state.getRegisterL().getData());
         state.getRegisterH().setData(newh);
         state.getRegisterL().setData(newl);
-        state.getRegisterD().setData((byte)(hl >> 8));
-        state.getRegisterE().setData((byte)hl);
+
     }
 }

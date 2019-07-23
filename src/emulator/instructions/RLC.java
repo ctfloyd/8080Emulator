@@ -9,10 +9,9 @@ public class RLC implements Instruction {
     @Override
     public void operate(Emulator state){
         Register a = state.getRegisterA();
-        byte highBit = (byte)((a.getData() & 0x80) >> 7);
-        byte setByte = (byte)(highBit | (a.getData() << 1));
-        state.getRegisterA().setData(setByte);
-        state.setCarry((byte)(a.getData() & 0x80) == 0x80);
+        byte aDat = (byte)(a.getData() & 0xFF);
+        state.getRegisterA().setData((byte)(aDat << 1 | (byte)((aDat >>> 7) >>> 24)));
+        state.setCarry((byte)((aDat >>> 7) >>> 24) > 0);
     }
 
 }

@@ -21,13 +21,11 @@ public class DAD implements Instruction {
 
     @Override
     public void operate(Emulator state) {
-        Register registerH = state.getRegisterH();
-        Register registerL = state.getRegisterL();
-        int inData = (highRegister.getData() << 8) | lowRegister.getData(); // Combine two reigsters to make 16 bit number
-        int hlData = (registerH.getData() << 8) | registerL.getData();
+        int inData = ((highRegister.getData() & 0xFF) << 8) | (lowRegister.getData() & 0xFF) ; // Combine two reigsters to make 16 bit number
+        int hlData = state.getHL();
         int sum = inData + hlData;
-        registerH.setData((byte)((sum & 0xFF00) >> 8)); // Take the high bits, and make them into a java byte format
-        registerL.setData((byte)(sum & 0x00FF));
+        state.getRegisterH().setData((byte)((sum & 0xFF00) >> 8)); // Take the high bits, and make them into a java byte format
+        state.getRegisterL().setData((byte)(sum & 0xFF));
         state.setCarry((sum & 0xffff0000) != 0); // check if any bits outside of 16-bit range is set, thus there was a carry
     }
 }

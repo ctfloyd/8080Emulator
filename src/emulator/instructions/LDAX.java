@@ -15,9 +15,9 @@ public class LDAX implements Instruction {
 
     @Override
     public void operate(Emulator state) {
-        Register registerA = state.getRegisterA();
-        int location = Short.toUnsignedInt((short)(highRegister.getData() << 8 | lowRegister.getData()));
-        registerA.setData((byte)(registerA.getData() + state.getMemory()[location]));
+        short location = (short)(((highRegister.getData() & 0xFF) << 8) | (lowRegister.getData() & 0xFF));
+        System.out.println("ldax:" + (highRegister.getData() & 0xFF) + " : " + (lowRegister.getData() & 0xFF));
+        state.getRegisterA().setData((byte)state.readMemory(location));
     }
 
 }

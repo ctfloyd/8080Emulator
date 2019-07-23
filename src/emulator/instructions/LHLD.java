@@ -6,9 +6,9 @@ public class LHLD implements Instruction{
 
     @Override
     public void operate(Emulator state) {
-        int location = state.getHL();
-        state.getRegisterL().setData(state.getMemory()[location]);
-        state.getRegisterH().setData(state.getMemory()[location + 1]);
+        short location = (short)((state.readMemory(state.getPC() + 1) << 8) | (state.readMemory(state.getPC())));
+        state.getRegisterL().setData((byte)(state.readMemory(location)));
+        state.getRegisterH().setData((byte)(state.readMemory(location + 1)));
         state.setPC((short)(state.getPC() + 2));
     }
 

@@ -22,7 +22,7 @@ public class INX implements Instruction {
     @Override
     public void operate(Emulator state) {
         lowRegister.setData((byte)(lowRegister.getData() + 1));
-        if(lowRegister.getData() == -128){
+        if(lowRegister.getData() == 0){
             highRegister.setData((byte)(highRegister.getData() + 1));
         }
     }

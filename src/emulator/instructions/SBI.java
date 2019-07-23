@@ -10,10 +10,7 @@ public class SBI implements Instruction {
         int regData = (state.getRegisterA().getData() & 0xFF) - state.readMemory(state.getPC()) - carry;
         state.getRegisterA().setData((byte)regData);
         state.setSZP(state.getRegisterA());
-        if((regData & 0xFFFFFF00) != 0)
-            state.setCarry(true);
-        else
-            state.setCarry(false);
+        state.setCarry((regData & 0xFFFFFF00) != 0);
         // TODO: set aux carry
         state.setPC((short) (state.getPC() + 1));
     }

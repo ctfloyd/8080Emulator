@@ -20,16 +20,12 @@ public class CMP implements Instruction {
         Register tempRegister = new Register();
         if(this.register == null)
         {
-            tempRegister.setData((byte)(state.getMemory()[state.getHL()] - state.getRegisterA().getData()));
+            tempRegister.setData((byte)(state.getRegisterA().getData() - state.readMemory(state.getHL())));
         } else {
-            tempRegister.setData((byte)(register.getData() - state.getRegisterA().getData()));
+            tempRegister.setData((byte)(state.getRegisterA().getData() - (register.getData())));
         }
-
+        state.setCarry(tempRegister.getData() < 0);
         state.setSZP(tempRegister);
-        if(tempRegister.getData() > 0){
-            state.setCarry(true);
-        } else {
-            state.setCarry(false);
-        }
+
     }
 }

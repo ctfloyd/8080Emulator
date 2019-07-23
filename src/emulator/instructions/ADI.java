@@ -11,10 +11,7 @@ public class ADI implements Instruction {
         state.getRegisterA().setData((byte)registerData);
         state.setSZP(state.getRegisterA());
         System.out.println(Integer.toBinaryString(registerData));
-        if((registerData & 0xFFFFFF00) > 0)
-            state.setCarry(true);
-        else
-            state.setCarry(false);
+        state.setCarry((registerData & 0xFFFFFF00) > 0);
         // TODO: set aux carry
         state.setPC((short) (state.getPC() + 1));
     }

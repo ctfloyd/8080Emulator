@@ -19,9 +19,9 @@ public class ORA implements Instruction {
     public void operate(Emulator state) {
         if(this.register == null)
         {
-            state.getMemory()[state.getHL()] = (byte)(state.getRegisterA().getData() | state.getMemory()[state.getHL()]);
+            state.getRegisterA().setData((byte)(state.getRegisterA().getData() | state.readMemory(state.getHL())));
         } else {
-            register.setData((byte)(register.getData() | state.getRegisterA().getData()));
+            state.getRegisterA().setData((byte)(state.getRegisterA().getData() | register.getData()));
         }
 
         state.setSZP(state.getRegisterA());

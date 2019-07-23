@@ -18,16 +18,16 @@ public class ADC implements Instruction {
     @Override
     public void operate(Emulator state) {
         byte carryByte = state.getCarry() ? (byte)1 : (byte)0;
+        int registerData;
         if(this.register == null)
         {
-            state.getRegisterA().setData((byte)(state.readMemory(state.getHL()) + state.getRegisterA().getData() + carryByte));
-            state.setPC((short)(state.getPC() + 1));
+            registerData = (state.getRegisterA().getData() & 0xFF) + state.readMemory(state.getHL()) + carryByte;
         } else {
-            state.getRegisterA().setData((byte) ((state.getRegisterA().getData() & 0xFF) + (register.getData() & 0xFF) + carryByte));
+            registerData = (state.getRegisterA().getData() & 0xFF) + (register.getData() & 0xFF) + carryByte;
         }
-
+        state.getRegisterA().setData((byte)registerData);
         state.setSZP(state.getRegisterA());
-        state.setCarry(false);
+        state.setCarry((registerData & 0xFFFFFF00) != 0);
         //TODO: Auxillary Carry
     }
 }
