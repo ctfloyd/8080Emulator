@@ -488,7 +488,6 @@ public class Emulator {
     public void writeMemory(byte register, int memoryLocation){
 //        if(memoryLocation < 0x2000){
 //            System.out.println("Error, cannot write to ROM");
-//        }
 //        if(memoryLocation >= 0x4000){
 //            System.out.println("Can't write outside of loaded user application");
 //        }

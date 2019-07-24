@@ -6,14 +6,16 @@ public class XTHL implements Instruction {
 
     @Override
     public void operate(Emulator state) {
-        short hl = (short)state.getHL();
-        byte newh = state.getMemory()[state.getSP()];
-        byte newl = state.getMemory()[state.getSP() + 1];
+        byte oldL = state.getRegisterL().getData();
+        byte oldH = state.getRegisterH().getData();
 
-        state.writeMemory((byte)(hl >> 8), state.getSP());
-        state.writeMemory((byte)hl, state.getSP());
+        byte newl = (byte)state.readMemory(state.getSP());
+        byte newh = (byte)state.readMemory(state.getSP() + 1);
 
-        state.getRegisterH().setData(newh);
+        state.writeMemory(oldL, state.getSP());
+        state.writeMemory(oldH, state.getSP() + 1);
+
         state.getRegisterL().setData(newl);
+        state.getRegisterH().setData(newh);
     }
 }

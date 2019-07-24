@@ -47,6 +47,7 @@ public class PUSH implements Instruction {
                 psw |= 0x0;
 
             state.writeMemory(state.getRegisterA().getData(), state.getSP() - 1);
+            System.out.println("PUSH writing: " + psw);
             state.writeMemory(psw, state.getSP() - 2);
         } else {
 //            System.out.println("PUSHING: HR: " + highRegister.getData());
